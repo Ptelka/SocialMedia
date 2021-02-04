@@ -43,144 +43,145 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 268dc70b105993846a123be43345df63, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fileIndex: 0
+  fileIndex: 9
   skinIndex: 0
   loadTag: 
   startID: 1
   curFocusID: 1
-  currentID: 79710
+  currentID: 19697
   autosave: 1
   previewPanning: 0
-  currentDiag: 0
+  currentDiag: 9
   locEdit: 0
   pNodeID: 18
   aNodeID: 2
   S_playerDiags:
-  - commentCount: 2
+  - commentCount: 1
     s_comment:
-    - text: Chill out, man!
-      extraData: 
+    - text: "Dzie\u0144 dobry,  czy oferta jeszcze aktualna ? "
+      extraData: 4
       inputSetIndex: 0
-      outputNodeIndex: 12
+      outputNodeIndex: 1
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 301
-        y: 63
+        y: 65
         width: 30
-        height: 23
+        height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: What? What is this place?
-      extraData: 
-      inputSetIndex: 0
-      outputNodeIndex: 13
+    ID: 1
+    rect:
+      serializedVersion: 2
+      x: -970
+      y: -280
+      width: 348
+      height: 171.6
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 2
+    s_comment:
+    - text: "Buty s\u0105 jeszcze dost\u0119pne"
+      extraData: 4
+      inputSetIndex: 1
+      outputNodeIndex: 2
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 65
+        width: 30
+        height: 24
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: "Laptop jest jeszcze dost\u0119pny"
+      extraData: 4
+      inputSetIndex: 1
+      outputNodeIndex: 10
+      outActionIndex: -1
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 300
-        y: 87
+        y: 120
         width: 30
-        height: 23
+        height: 24
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 5
+    ID: 0
     rect:
       serializedVersion: 2
-      x: 1240
-      y: -60
+      x: -510
+      y: -370
       width: 348
-      height: 249
+      height: 218
     pTag: 
-    expand: 1
+    expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 1
-  - commentCount: 3
+  - commentCount: 1
     s_comment:
-    - text: "You shouldn't be here either\t"
-      extraData: 
-      inputSetIndex: 1
-      outputNodeIndex: 13
+    - text: "Czy buty by\u0142y zak\u0142adane na go\u0142\u0105 stop\u0119? "
+      extraData: 5
+      inputSetIndex: 2
+      outputNodeIndex: 3
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 301
-        y: 63
+        y: 65
         width: 30
-        height: 23
+        height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
-      visible: 1
-    - text: I spawned here!
-      extraData: 
-      inputSetIndex: 1
-      outputNodeIndex: 10
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 87
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Yes I should.
-      extraData: 
-      inputSetIndex: 1
-      outputNodeIndex: 9
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 111
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 6
+      visible: 0
+    ID: 2
     rect:
       serializedVersion: 2
-      x: 1280
-      y: 220
+      x: -70
+      y: -330
       width: 348
-      height: 273
+      height: 171.6
     pTag: 
-    expand: 1
-    sprite: {fileID: 21300000, guid: d54f1dfd3256b57488f3b348dca8b2bf, type: 3}
+    expand: 0
+    sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 1
-  - commentCount: 2
+    isPlayer: 0
+  - commentCount: 3
     s_comment:
-    - text: (Ha- right....)
-      extraData: 
-      inputSetIndex: 2
-      outputNodeIndex: 11
+    - text: "Nigdy, zawsze nosz\u0119 skarpetki - buty nie by\u0142y du\u017Co u\u017Cywane "
+      extraData: ExtraData
+      inputSetIndex: 3
+      outputNodeIndex: 4
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 301
-        y: 63
+        y: 65
         width: 30
-        height: 23
+        height: 33
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: '[Leave]'
-      extraData: 
-      inputSetIndex: 2
+    - text: "Tak, zdarza\u0142o si\u0119, jestem buotwym hipisem #wolne stopy - nie
+        przeszkadza to ? "
+      extraData: ExtraData
+      inputSetIndex: 3
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -193,68 +194,39 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 10
+    - text: "Co to za pytanie ? Buty s\u0105 w dobrym stanie, od\u015Bwierzone specjalnym
+        sprayem "
+      extraData: ExtraData
+      inputSetIndex: 3
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 3
     rect:
       serializedVersion: 2
-      x: 2190
-      y: 390
+      x: 430
+      y: -340
       width: 348
-      height: 153
+      height: 237.6
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 1
-  - commentCount: 2
+  - commentCount: 1
     s_comment:
-    - text: 'Chiiiill.... '
-      extraData: 
-      inputSetIndex: 3
-      outputNodeIndex: 15
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Ugh... bye.
-      extraData: 
-      inputSetIndex: 3
-      outputNodeIndex: 8
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 87
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 13
-    rect:
-      serializedVersion: 2
-      x: 2190
-      y: 20
-      width: 348
-      height: 249
-    pTag: 
-    expand: 1
-    sprite: {fileID: 21300000, guid: d54f1dfd3256b57488f3b348dca8b2bf, type: 3}
-    vars: []
-    varKeys: []
-    isPlayer: 1
-  - commentCount: 3
-    s_comment:
-    - text: Woah WOAH
-      extraData: 
+    - text: "Dobrze, a przez osob\u0119 w jakim wieku by\u0142y noszone te buty ? "
+      extraData: ExtraData
       inputSetIndex: 4
       outputNodeIndex: 5
       outActionIndex: -1
@@ -262,160 +234,106 @@ MonoBehaviour:
       outRect:
         serializedVersion: 2
         x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: N-no.. wait!
-      extraData: 
-      inputSetIndex: 4
-      outputNodeIndex: 6
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 87
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: ...
-      extraData: 
-      inputSetIndex: 4
-      outputNodeIndex: 7
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 300
-        y: 111
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 0
-    rect:
-      serializedVersion: 2
-      x: 200
-      y: -120
-      width: 348
-      height: 177
-    pTag: 
-    expand: 0
-    sprite: {fileID: 21300000, guid: d54f1dfd3256b57488f3b348dca8b2bf, type: 3}
-    vars:
-    - 
-    varKeys:
-    - Key1
-    isPlayer: 1
-  - commentCount: 1
-    s_comment:
-    - text: You're not getting out of here alive!
-      extraData: ExtraData
-      inputSetIndex: 5
-      outputNodeIndex: 0
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
+        y: 65
         width: 30
         height: 33
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 2
-    rect:
-      serializedVersion: 2
-      x: 760
-      y: -230
-      width: 348
-      height: 139
-    pTag: Charlie
-    expand: 0
-    sprite: {fileID: 0}
-    vars:
-    - SomeString
-    - 12354
-    - false
-    - 1.52
-    varKeys:
-    - Key1
-    - Key2
-    - Key3
-    - Key4
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: No, what? You shouldn't be here.
-      extraData: ExtraData
-      inputSetIndex: 6
-      outputNodeIndex: 1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    ID: 3
-    rect:
-      serializedVersion: 2
-      x: 780
-      y: -60
-      width: 348
-      height: 129
-    pTag: Charlie
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: That's it! Keep your intrusive mouth shut!
-      extraData: ExtraData
-      inputSetIndex: 7
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 4
     rect:
       serializedVersion: 2
-      x: 770
-      y: 110
+      x: 980
+      y: -360
       width: 348
-      height: 139
-    pTag: Charlie
+      height: 141.6
+    pTag: 
     expand: 0
-    sprite: {fileID: 21300000, guid: 9e5eefef3b3fdff40a66f9c9db42ac9e, type: 3}
+    sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 3
+  - commentCount: 4
     s_comment:
-    - text: You do that!
+    - text: 'Co to ma do rzeczy ? '
       extraData: ExtraData
-      inputSetIndex: 8
+      inputSetIndex: 5
+      outputNodeIndex: 6
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 65
+        width: 30
+        height: 24
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: "Przez 20 latk\u0119 "
+      extraData: ExtraData
+      inputSetIndex: 5
+      outputNodeIndex: 7
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 300
+        y: 90
+        width: 30
+        height: 24
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: 'Przez babcie, ma grzybice '
+      extraData: ExtraData
+      inputSetIndex: 5
+      outputNodeIndex: 8
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 300
+        y: 115
+        width: 30
+        height: 24
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: 'Przez babcie ale babcia ma zdrowe stopy '
+      extraData: ExtraData
+      inputSetIndex: 5
+      outputNodeIndex: 9
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 300
+        y: 140
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 5
+    rect:
+      serializedVersion: 2
+      x: 1460
+      y: -350
+      width: 348
+      height: 216.6
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "kolekcjonuje buty. ma wi\u0119c to dla mnie warto\u015B\u0107 kolekcjonersk\u0105,
+        je\u015Bli jest Pani kobiet\u0105 - kupi\u0142bym te\u017C skarpetki "
+      extraData: ExtraData
+      inputSetIndex: 6
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -428,24 +346,25 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: I'm sick of these caps spawning wherever they please.
+    ID: 6
+    rect:
+      serializedVersion: 2
+      x: 1900
+      y: -800
+      width: 348
+      height: 170.4
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 1
+    s_comment:
+    - text: "Dop\u0142ac\u0119 20 z\u0142 je\u015Bli przy odbiorze b\u0119d\u0119
+        m\xF3g\u0142 pow\u0105cha\u0107 Pani stopy."
       extraData: ExtraData
-      inputSetIndex: 8
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Begone!
-      extraData: ExtraData
-      inputSetIndex: 8
+      inputSetIndex: 7
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -461,11 +380,11 @@ MonoBehaviour:
     ID: 7
     rect:
       serializedVersion: 2
-      x: 2670
-      y: 160
+      x: 2000
+      y: -560
       width: 348
-      height: 187
-    pTag: Charlie
+      height: 141.6
+    pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
@@ -473,9 +392,10 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: No, you don't. That's but a filthy lie. Go away, kid.
+    - text: "Ma grzybic\u0119 st\xF3p, oj to nie dobrze - mog\u0119 babci natrze\u0107
+        stopy ma\u015Bci\u0105 Grzybtex - je\u015Bli op\xF3\u015Bci Pani 3 z\u0142 "
       extraData: ExtraData
-      inputSetIndex: 9
+      inputSetIndex: 8
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
@@ -491,11 +411,11 @@ MonoBehaviour:
     ID: 8
     rect:
       serializedVersion: 2
-      x: 1770
-      y: 520
+      x: 2040
+      y: -410
       width: 348
-      height: 139
-    pTag: Charlie
+      height: 170.4
+    pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
@@ -503,37 +423,85 @@ MonoBehaviour:
     isPlayer: 0
   - commentCount: 1
     s_comment:
-    - text: I did as well! But I didn't go around bothering caps!
+    - text: "Prosz\u0119 o opis zapachu st\xF3p jestem - entuzjast\u0105 obuwia. "
       extraData: ExtraData
-      inputSetIndex: 10
-      outputNodeIndex: 2
+      inputSetIndex: 9
+      outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 33
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 9
     rect:
       serializedVersion: 2
-      x: 1770
-      y: 340
+      x: 2020
+      y: -170
       width: 348
-      height: 139
-    pTag: Charlie
+      height: 141.6
+    pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 5
+  - commentCount: 1
     s_comment:
-    - text: ...excuse me?
+    - text: "Proponuj\u0119 200 z\u0142 , jest to uczciwa cena - laptop nie posiada
+        mo\u017Cliwo\u015Bci updetowania podzespo\u0142\xF3w, za trzy lata tak b\u0119dzie
+        jego warto\u015B\u0107 rynkowa. Mog\u0119 przyjecha\u0107 dzisiaj. "
+      extraData: ExtraData
+      inputSetIndex: 10
+      outputNodeIndex: 11
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 65
+        width: 30
+        height: 90
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 10
+    rect:
+      serializedVersion: 2
+      x: -620
+      y: 270
+      width: 348
+      height: 199.2
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 0
+  - commentCount: 3
+    s_comment:
+    - text: "Mam dobry dzie\u0144, sprzedam Panu za 100 z\u0142 "
+      extraData: ExtraData
+      inputSetIndex: 11
+      outputNodeIndex: 12
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 65
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: "Jest to jeden z najlepszych laptop\xF3w na rynku, cena podana w og\u0142oszeniu
+        to minimum. Mog\u0119 wys\u0142a\u0107 do Pana na m\xF3j koszt. "
       extraData: ExtraData
       inputSetIndex: 11
       outputNodeIndex: -1
@@ -548,57 +516,13 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Did I just hear a whisper?
+    - text: "Prosz\u0119 wi\u0119c zakupi\u0107 laptop za 200 z\u0142 z mozliwo\u015Bci\u0105
+        updetu - dzi\u0119kuje. "
       extraData: ExtraData
       inputSetIndex: 11
       outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: Look, kid...
-      extraData: ExtraData
-      inputSetIndex: 11
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 0
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: GO
-      extraData: fs,18
-      inputSetIndex: 11
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 1
-      outRect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 0
-        height: 0
-      sprites: {fileID: 0}
-      audios: {fileID: 0}
-      visible: 1
-    - text: AWAY.
-      extraData: fs,40
-      inputSetIndex: 11
-      outputNodeIndex: -1
-      outActionIndex: -1
-      showmore: 1
       outRect:
         serializedVersion: 2
         x: 0
@@ -611,72 +535,82 @@ MonoBehaviour:
     ID: 11
     rect:
       serializedVersion: 2
-      x: 2670
-      y: 400
+      x: -100
+      y: 120
       width: 348
-      height: 283
-    pTag: Charlie
+      height: 252
+    pTag: 
     expand: 0
     sprite: {fileID: 0}
-    vars:
-    - 
-    - 
-    - 
-    - 
-    varKeys:
-    - Key1
-    - Key2
-    - Key3
-    - Key4
-    isPlayer: 0
+    vars: []
+    varKeys: []
+    isPlayer: 1
   - commentCount: 1
     s_comment:
-    - text: Did you just-
+    - text: "Wiedzia\u0142em, \u017Ce w internecie s\u0105 ludzie inteligetni. A
+        co z kosztem wysy\u0142ki, pokryje Pan ? To dla dziecka na komunie. "
       extraData: ExtraData
       inputSetIndex: 12
-      outputNodeIndex: 3
+      outputNodeIndex: 13
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 301
-        y: 63
+        y: 65
         width: 30
-        height: 23
+        height: 61
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 12
     rect:
       serializedVersion: 2
-      x: 1770
-      y: -80
+      x: 420
+      y: -20
       width: 348
-      height: 129
-    pTag: Charlie
+      height: 170.4
+    pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 2
+  - commentCount: 3
     s_comment:
-    - text: Huh?
+    - text: "Tak, koszty wysy\u0142ki mog\u0119 pokry\u0107. Wys\u0142a\u0107 go\u0142\u0119biem
+        pocztowym ? Czy woli Pan przesy\u0142k\u0105 konduktorsk\u0105 ? "
       extraData: ExtraData
       inputSetIndex: 13
-      outputNodeIndex: 3
+      outputNodeIndex: 14
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
         x: 301
-        y: 63
+        y: 65
         width: 30
-        height: 23
+        height: 61
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: I OWN this place.
+    - text: "Tak - wy\u015Bl\u0119 to na m\xF3j koszt. A mo\u017Ce przywie\u017A\u0107
+        Panu ? "
+      extraData: ExtraData
+      inputSetIndex: 13
+      outputNodeIndex: 16
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 300
+        y: 127
+        width: 30
+        height: 33
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: "Pojeba\u0142o Ci\u0119 typie xd "
       extraData: ExtraData
       inputSetIndex: 13
       outputNodeIndex: -1
@@ -688,55 +622,70 @@ MonoBehaviour:
         y: 0
         width: 0
         height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 13
+    rect:
+      serializedVersion: 2
+      x: 920
+      y: -160
+      width: 348
+      height: 229
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
+    vars: []
+    varKeys: []
+    isPlayer: 1
+  - commentCount: 1
+    s_comment:
+    - text: "Jakim go\u0142\u0119biem ? "
+      extraData: ExtraData
+      inputSetIndex: 14
+      outputNodeIndex: 15
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 301
+        y: 65
+        width: 30
+        height: 24
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
     ID: 14
     rect:
       serializedVersion: 2
-      x: 1770
-      y: 120
+      x: 1440
+      y: -60
       width: 348
-      height: 153
-    pTag: Charlie
+      height: 133
+    pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
     isPlayer: 0
-  - commentCount: 1
+  - commentCount: 4
     s_comment:
-    - text: Waddayawant?
-      extraData: fs,32
-      inputSetIndex: 14
-      outputNodeIndex: 4
+    - text: Pocztowym.
+      extraData: ExtraData
+      inputSetIndex: 15
+      outputNodeIndex: -1
       outActionIndex: -1
       showmore: 1
       outRect:
         serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 1
-    rect:
-      serializedVersion: 2
-      x: -300
-      y: 20
-      width: 348
-      height: 254
-    pTag: Charlie
-    expand: 1
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 2
-    s_comment:
-    - text: chill...?
+    - text: 'Ekspresowym. '
       extraData: ExtraData
       inputSetIndex: 15
       outputNodeIndex: -1
@@ -751,12 +700,27 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: CHIIILL?!?!?!?!??!?!?
-      extraData: fs,28
+    - text: Za pobraniem.
+      extraData: ExtraData
       inputSetIndex: 15
       outputNodeIndex: -1
       outActionIndex: -1
-      showmore: 1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    - text: 
+      extraData: ExtraData
+      inputSetIndex: 15
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
       outRect:
         serializedVersion: 2
         x: 0
@@ -769,39 +733,43 @@ MonoBehaviour:
     ID: 15
     rect:
       serializedVersion: 2
-      x: 2670
-      y: -110
+      x: 1950
+      y: 50
       width: 348
-      height: 278
-    pTag: Charlie
-    expand: 1
-    sprite: {fileID: 21300000, guid: 9e5eefef3b3fdff40a66f9c9db42ac9e, type: 3}
+      height: 238
+    pTag: 
+    expand: 0
+    sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 0
+    isPlayer: 1
   - commentCount: 3
     s_comment:
-    - text: What now-
-      extraData: ExtraData
+    - text: "By\u0142oby genialnie. Wie Pan jak wszystko dro\u017Ceje - rodzina na
+        g\u0142owie na benzyne nie mam - to co podrzuci mi Pan dzisiaj tak za godzink\u0119
+        ? "
+      extraData: '2
+
+'
       inputSetIndex: 16
-      outputNodeIndex: -1
-      outActionIndex: 0
-      showmore: 0
+      outputNodeIndex: 17
+      outActionIndex: -1
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 301
-        y: 63
+        y: 65
         width: 30
-        height: 23
+        height: 76
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: What do you think you are doing with that [WEAPON]?!
-      extraData: ExtraData
+    - text: 'Adres: '
+      extraData: 2
       inputSetIndex: 16
       outputNodeIndex: -1
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 0
@@ -811,12 +779,12 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    - text: Get that thing away from me!
-      extraData: ExtraData
+    - text: 'Za zajazadem 12 '
+      extraData: 1
       inputSetIndex: 16
       outputNodeIndex: -1
       outActionIndex: -1
-      showmore: 0
+      showmore: 1
       outRect:
         serializedVersion: 2
         x: 0
@@ -829,21 +797,19 @@ MonoBehaviour:
     ID: 16
     rect:
       serializedVersion: 2
-      x: -80
-      y: 290
+      x: 1190
+      y: 260
       width: 348
-      height: 187
-    pTag: Charlie
+      height: 333.8
+    pTag: 
     expand: 0
     sprite: {fileID: 0}
-    vars:
-    - nameLookUp
-    varKeys:
-    - nameLookUp
+    vars: []
+    varKeys: []
     isPlayer: 0
-  - commentCount: 1
+  - commentCount: 3
     s_comment:
-    - text: GO AWAY!
+    - text: "Czy Pan nie jest debilem ( idiot\u0105, kretynem ) przypadkiem ? "
       extraData: ExtraData
       inputSetIndex: 17
       outputNodeIndex: -1
@@ -858,94 +824,49 @@ MonoBehaviour:
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 18
-    rect:
-      serializedVersion: 2
-      x: -270
-      y: -180
-      width: 348
-      height: 129
-    pTag: Charlie
-    expand: 0
-    sprite: {fileID: 0}
-    vars: []
-    varKeys: []
-    isPlayer: 0
-  - commentCount: 1
-    s_comment:
-    - text: Comment...
+    - text: "Czy mog\u0119 przyjecha\u0107 konno ? "
       extraData: ExtraData
-      inputSetIndex: 18
-      outputNodeIndex: 1
+      inputSetIndex: 17
+      outputNodeIndex: -1
       outActionIndex: -1
       showmore: 0
       outRect:
         serializedVersion: 2
-        x: 301
-        y: 63
-        width: 30
-        height: 23
+        x: 0
+        y: 0
+        width: 0
+        height: 0
       sprites: {fileID: 0}
       audios: {fileID: 0}
       visible: 1
-    ID: 19
+    - text: "A tak zapytam przy okazji, mog\u0119 przyj\u015B\u0107 na komuni\u0119
+        ? "
+      extraData: ExtraData
+      inputSetIndex: 17
+      outputNodeIndex: -1
+      outActionIndex: -1
+      showmore: 0
+      outRect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 0
+        height: 0
+      sprites: {fileID: 0}
+      audios: {fileID: 0}
+      visible: 1
+    ID: 17
     rect:
       serializedVersion: 2
-      x: 470
-      y: 350
+      x: 1870
+      y: 360
       width: 348
-      height: 129
+      height: 200.2
     pTag: 
     expand: 0
     sprite: {fileID: 0}
     vars: []
     varKeys: []
-    isPlayer: 0
-  S_actionNodes:
-  - pauseHere: 0
-    gameObjectName: QuestChart
-    methodName: SetCharlieQuestComplete
-    nameIndex: 1
-    methodIndex: 2
-    paramIndex: 0
-    opts:
-    - '[No method]'
-    - CallQuestChart
-    - SetCharlieQuestComplete
-    - GetAssigned
-    - AssignNew
-    - SaveState
-    - LoadState
-    nameOpts:
-    - '[No object]'
-    - QuestChart
-    - NPC_CrazyCap
-    - NPC_Witch
-    - NPC_Couple2
-    - NPC_Couple1
-    - MrCube
-    - Spinned Cube
-    - ConditionGuy
-    - Big Cube
-    - UIManager
-    - CylinderGuy
-    - NPC_Charlie
-    - NPC_Laura
-    - Cube
-    param_bool: 0
-    param_string: 
-    param_int: 0
-    param_float: 0
-    rect:
-      serializedVersion: 2
-      x: 410
-      y: 80
-      width: 200
-      height: 170
-    ID: 17
-    outPlayerIndex: -1
-    outActionIndex: -1
-    more: 0
-    ovrStartNode: 18
-    renameDialogue: 
+    isPlayer: 1
+  S_actionNodes: []
   S_selNodes: []
