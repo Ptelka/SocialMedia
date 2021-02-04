@@ -1,0 +1,330 @@
+Edit the dialogue on the go.
+You can edit and add comments, edit the tags, and set node type.
+Do not attempt to add more nodes: the number of nodes must match when importing the text file.
+Do not modify the IDs.
+Do not add or remove empty lines.
+Do not restructure the data.
+
+Dialogue name: konradtest
+---------------------------------
+#NODEID#
+1
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Dzień dobry,  czy oferta jeszcze aktualna ? 
+---------------------------------
+#NODEID#
+0
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Buty są jeszcze dostępne
+#COMMENT#
+Laptop jest jeszcze dostępny
+---------------------------------
+#NODEID#
+2
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Czy buty były zakładane na gołą stopę? 
+---------------------------------
+#NODEID#
+3
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Nigdy, zawsze noszę skarpetki - buty nie były dużo używane 
+#COMMENT#
+Tak, zdarzało się, jestem buotwym hipisem #wolne stopy - nie przeszkadza to ? 
+#COMMENT#
+Co to za pytanie ? Buty są w dobrym stanie, odświerzone specjalnym sprayem 
+---------------------------------
+#NODEID#
+4
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Dobrze, a przez osobę w jakim wieku były noszone te buty ? 
+---------------------------------
+#NODEID#
+5
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Co to ma do rzeczy ? 
+#COMMENT#
+Przez 20 latkę 
+#COMMENT#
+Przez babcie, ma grzybice 
+#COMMENT#
+Przez babcie ale babcia ma zdrowe stopy 
+---------------------------------
+#NODEID#
+6
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+kolekcjonuje buty. ma więc to dla mnie wartość kolekcjonerską, jeśli jest Pani kobietą - kupiłbym też skarpetki 
+---------------------------------
+#NODEID#
+7
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Dopłacę 20 zł jeśli przy odbiorze będę mógł powąchać Pani stopy.
+---------------------------------
+#NODEID#
+8
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Ma grzybicę stóp, oj to nie dobrze - mogę babci natrzeć stopy maścią Grzybtex - jeśli opóści Pani 3 zł 
+---------------------------------
+#NODEID#
+9
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Proszę o opis zapachu stóp jestem - entuzjastą obuwia. 
+---------------------------------
+#NODEID#
+10
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Proponuję 200 zł , jest to uczciwa cena - laptop nie posiada możliwości updetowania podzespołów, za trzy lata tak będzie jego wartość rynkowa. Mogę przyjechać dzisiaj. 
+---------------------------------
+#NODEID#
+11
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Mam dobry dzień, sprzedam Panu za 100 zł 
+#COMMENT#
+Jest to jeden z najlepszych laptopów na rynku, cena podana w ogłoszeniu to minimum. Mogę wysłać do Pana na mój koszt. 
+#COMMENT#
+Proszę więc zakupić laptop za 200 zł z mozliwością updetu - dziękuje. 
+---------------------------------
+#NODEID#
+12
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Wiedziałem, że w internecie są ludzie inteligetni. A co z kosztem wysyłki, pokryje Pan ? To dla dziecka na komunie. 
+---------------------------------
+#NODEID#
+13
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Tak, koszty wysyłki mogę pokryć. Wysłać gołębiem pocztowym ? Czy woli Pan przesyłką konduktorską ? 
+#COMMENT#
+Tak - wyślę to na mój koszt. A może przywieźć Panu ? 
+#COMMENT#
+Pojebało Cię typie xd 
+---------------------------------
+#NODEID#
+14
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Jakim gołębiem ? 
+---------------------------------
+#NODEID#
+15
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Pocztowym.
+#COMMENT#
+Ekspresowym. 
+#COMMENT#
+Za pobraniem.
+#COMMENT#
+
+---------------------------------
+#NODEID#
+16
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Byłoby genialnie. Wie Pan jak wszystko drożeje - rodzina na głowie na benzyne nie mam - to co podrzuci mi Pan dzisiaj tak za godzinkę ? 
+#COMMENT#
+Adres: 
+#COMMENT#
+Za zajazadem 12 
+---------------------------------
+#NODEID#
+17
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Czy Pan nie jest debilem ( idiotą, kretynem ) przypadkiem ? 
+#COMMENT#
+Czy mogę przyjechać konno ? 
+#COMMENT#
+A tak zapytam przy okazji, mogę przyjść na komunię ? 
+---------------------------------
+#NODEID#
+18
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Pies Cie pieścił w nogę kurwibąku, przez takich jak Ty zł słabnie - mógłbyś przywrócić moc 200 zł ! NIE WSTYD CI - PIERDZIE ? 
+---------------------------------
+#NODEID#
+19
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+A sprzedaje Pan taki ? 
+---------------------------------
+#NODEID#
+20
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Nie
+#COMMENT#
+Akurat jeden mam na stanie ale za 300 zł 
+#COMMENT#
+Wywrócił Pan się taczką czy jest pijany ? 
+---------------------------------
+#NODEID#
+21
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+To co z Ciebie za Handlarz
+#COMMENT#
+Ja jestem poważny Klient i proszę mi nie oferować czegoś co Pan nie sprzedaje. Daje 200 zł za tego laptopa i lepiej żeby mógł być updetowany 
+---------------------------------
+#NODEID#
+22
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Mogę odmówić ? 
+#COMMENT#
+kurła! Jestem Handlowcem pajacu w BKG - mówi Ci to coś kliencie ! 
+#COMMENT#
+Mogę się wymienić za 2 chomiki bengalskie i lapek jest pana. 
+---------------------------------
+#NODEID#
+23
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Nie możesz :) 
+---------------------------------
+#NODEID#
+24
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+No i leci maila do pana firmy z screenami - bardzo ładnie Pan reprezentuje firmę. Ale możemy się dogdać, co Ty na to ? 
+---------------------------------
+#NODEID#
+25
+#TAG#
+
+#ISPLAYER#
+False
+---
+#COMMENT#
+Co? 
+#COMMENT#
+Jakie chomiki bengalskie ?  
+---------------------------------
+#NODEID#
+26
+#TAG#
+
+#ISPLAYER#
+True
+---
+#COMMENT#
+Normalne z bengali
+#COMMENT#
+Może być 40 kg paszy dla konia i 20 zł 
+#COMMENT#
+
+---------------------------------
+#END#
