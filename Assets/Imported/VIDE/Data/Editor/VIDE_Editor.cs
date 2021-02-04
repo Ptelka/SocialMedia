@@ -4900,15 +4900,15 @@ public class VIDE_Editor : EditorWindow
             {
                 Undo.RecordObject(db, "Reset and fetch");
 
-                var objects = Resources.FindObjectsOfTypeAll<GameObject>();
+                var objects = Resources.FindObjectsOfTypeAll<Action>();
                 db.actionNodes[aID].nameOpts.Clear();
 
                 int c = 0;
                 db.actionNodes[aID].nameOpts.Add("[No object]");
 
-                foreach (GameObject g in objects)
+                foreach (Action g in objects)
                 {
-                    if (g.activeInHierarchy && checkUseful(g))
+                    if (g.gameObject.activeInHierarchy)
                         db.actionNodes[aID].nameOpts.Add(g.name);
 
                     c++;

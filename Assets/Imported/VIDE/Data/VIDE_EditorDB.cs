@@ -26,6 +26,7 @@ public class VIDE_EditorDB : MonoBehaviour, ISerializationCallbackReceiver
         public List<string> nameOpts = new List<string>() { "[No object]" };
         public string[] opts = new string[] { "[No method]" };
         public Dictionary<string, string> methods = new Dictionary<string, string>();
+        public string helno = "XD";
 
         public int gotoNode = -1;
 
